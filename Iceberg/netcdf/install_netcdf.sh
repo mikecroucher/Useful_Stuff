@@ -1,3 +1,8 @@
+#Downloads and installs netcdf-fortran and all the pre-reqs into a local folder
+#To use, Add the support_libs to the library path
+#export LD_LIBRARY_PATH=$(pwd)/support_libs/lib:$LD_LIBRARY_PATH
+
+
 module load compilers/gcc/5.2
 module load mpi/gcc/openmpi/1.10.1
 
